@@ -1,0 +1,17 @@
+<style>
+.block-flex {
+  display: flex;
+  background-color: lightblue;
+}
+
+.inline-flex {
+  display: inline-flex;
+  background-color: lightgreen;
+}
+</style>
+
+<div class="block-flex">Elemento Flex</div>
+<span>Texto fora do Flex</span>
+
+<div class="inline-flex">Elemento Inline-Flex</div>
+<span>Texto ao lado do Inline-Flex</span>
