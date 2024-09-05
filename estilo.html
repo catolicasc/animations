@@ -11,20 +11,27 @@
             border-radius: 50%;
         }
 
-        .atencao {
+        #atencao {
             background-color: yellow;
         }
-        .pare {
+        #pare {
             background-color: red;
         }
-        .continue {
+        #continue {
             background-color: green;
+        }
+        input[type="text"], input[type="password"]{
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="sinal continue"></div>
-    <div class="sinal atencao"></div>
-    <div class="sinal pare"></div>
+    <input type="text">
+    <input type="password">
+    <div class="sinal" id="continue"></div>
+    <div class="sinal" id="atencao"></div>
+    <div class="sinal" id="pare"></div>
 </body>
 </html>
